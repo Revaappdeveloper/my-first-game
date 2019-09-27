@@ -1,0 +1,293 @@
+    .bg-container {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .butterfly-img {
+        position: absolute;
+        top: 24px;
+        left: 112px;
+        width: 100px;
+        height: 101px;
+    }
+    
+    .butterfly-animation {
+        animation-name: butterfly-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .bow-img {
+        position: absolute;
+        top: 0px;
+        right: 226px;
+        width: 91px;
+        height: 71px;
+    }
+    
+    .bow-animation {
+        animation-name: bow-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .cheese-img {
+        position: absolute;
+        top: 150px;
+        right: 176px;
+        width: 103px;
+        height: 97px;
+    }
+    
+    .cheese-animation {
+        animation-name: cheese-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .coins-img {
+        position: absolute;
+        top: 34px;
+        right: 186px;
+        width: 79px;
+        height: 69px;
+    }
+    
+    .coins-animation {
+        animation-name: coins-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .spoon-img {
+        position: absolute;
+        top: 331px;
+        right: 135px;
+        width: 110px;
+        height: 71px;
+    }
+    
+    .spoon-animation {
+        animation-name: spoon-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .key-img {
+        position: absolute;
+        bottom: 163px;
+        right: 190px;
+        width: 51px;
+        height: 88px;
+    }
+    
+    .key-animation {
+        animation-name: key-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .pears-img {
+        position: absolute;
+        bottom: 65px;
+        left: 69px;
+        width: 77px;
+        height: 104px;
+    }
+    
+    .pears-animation {
+        animation-name: pears-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .pencil-img {
+        position: absolute;
+        bottom: 196px;
+        left: 200px;
+        width: 134px;
+        height: 63px;
+    }
+    
+    .pencil-animation {
+        animation-name: pencil-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .dice-img {
+        position: absolute;
+        bottom: 255px;
+        left: 274px;
+        width: 62px;
+        height: 70px;
+    }
+    
+    .dice-animation {
+        animation-name: dice-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .piggy-bank-img {
+        position: absolute;
+        bottom: -2px;
+        right: 148px;
+        width: 94px;
+        height: 93px;
+    }
+    
+    .piggybank-animation {
+        animation-name: piggybank-animation;
+        animation-duration: 2s;
+        z-index: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes butterfly-animation {
+        0% {
+            top: 24px;
+            left: 112px;
+        }
+        100% {
+            top: 550px;
+            left: 25px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes bow-animation {
+        0% {
+            top: 0px;
+            right: 226px;
+        }
+        100% {
+            top: 550px;
+            right: 850px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes cheese-animation {
+        0% {
+            top: 150px;
+            right: 176px;
+        }
+        100% {
+            top: 550px;
+            right: 850px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes coins-animation {
+        0% {
+            top: 34px;
+            right: 186px;
+        }
+        100% {
+            top: 550px;
+            right: 850px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes spoon-animation {
+        0% {
+            top: 331px;
+            right: 135px;
+        }
+        100% {
+            top: 550px;
+            right: 850px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes key-animation {
+        0% {
+            bottom: 163px;
+            right: 190px;
+        }
+        100% {
+            bottom: 50px;
+            right: 850px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes pears-animation {
+        0% {
+            bottom: 65px;
+            left: 69px;
+        }
+        100% {
+            bottom: 50px;
+            left: 30px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes pencil-animation {
+        0% {
+            bottom: 196px;
+            left: 200px;
+        }
+        100% {
+            bottom: 50px;
+            left: 30px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes dice-animation {
+        0% {
+            bottom: 255px;
+            left: 274px;
+        }
+        100% {
+            bottom: 50px;
+            left: 30px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    @keyframes piggybank-animation {
+        0% {
+            bottom: -2px;
+            right: 148px;
+        }
+        100% {
+            bottom: 50px;
+            left: 30px;
+            width: 10px;
+            height: 10px;
+        }
+    }
