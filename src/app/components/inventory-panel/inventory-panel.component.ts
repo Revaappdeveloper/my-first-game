@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommunicationService } from 'src/app/services/communication.service';
+import { GlobalDataService } from 'src/app/services/global-data.service';
 
 @Component({
   selector: 'app-inventory-panel',
@@ -18,12 +19,13 @@ export class InventoryPanelComponent implements OnInit {
   textBrightPiggyBank: boolean = true;
   textBrightSpoon: boolean = true;
   score = 0;
-  constructor(private communicationService: CommunicationService) { }
+  constructor(private communicationService: CommunicationService, private globalDataService: GlobalDataService) { }
 
   ngOnInit() {
     console.log("ngoninit in inventory panel");
     this.communicationService.receiveData.subscribe((res)=>{
       this.score = res.score;
+      this.globalDataService.data.score = res.score;
       console.log(res);
       if(res.image==="bow"){
         this.textBrightBow=false;

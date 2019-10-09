@@ -15,6 +15,7 @@ export class StartPageComponent implements OnInit {
   viewGamePage(){
     console.log(this);
     this.router.navigateByUrl('/gamepage');
+    
   }
 
 }

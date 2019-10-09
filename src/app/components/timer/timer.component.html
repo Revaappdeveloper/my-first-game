@@ -1,12 +1,23 @@
-<div>
+<!-- <div class="bg-container">
     <div class="start-timer">
-        <div class="inner-round">
-            <div class="set-start-time">
-                <div><span #timer>{{currentTime}}</span></div>
-                <!-- <div class="set-min">00</div>
+    <div class="spinner spinner-1">
+        <div class="set-start-time">
+            <div><span #timer>{{currentTime}}</span></div>
+            <div class="set-min">00</div>
                 <div class="set-colon">:</div>
-                <div class="set-sec">00</div> -->
-            </div>
+                <div class="set-sec">00</div>
+
         </div>
     </div>
+   </div>
+</div> -->
+<div class="timer-panel">
+    <div class="timer-border">
+        <div class="timer-box">
+            <div class="time">{{currentTime}}</div>
+        </div>
+    </div>
+    <svg>
+     <circle r="45" cx="50%" cy="50%"></circle>
+   </svg>
 </div>

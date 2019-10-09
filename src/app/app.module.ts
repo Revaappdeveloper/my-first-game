@@ -9,6 +9,7 @@ import { ImageComponentComponent } from './components/image-component/image-comp
 import { InventoryPanelComponent } from './components/inventory-panel/inventory-panel.component';
 import { GameOverComponent } from './components/game-over/game-over.component';
 import { TimerComponent } from './components/timer/timer.component';
+import { DisplayScoreComponent } from './components/display-score/display-score.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,8 @@ const routes: Routes = [
   { path: 'gamepage', component: GamePageComponent },
   { path: 'imagepage', component: ImageComponentComponent },
   { path: 'gameover', component: GameOverComponent },
+  {path: 'timer', component: TimerComponent},
+  {path: 'displayscore', component: DisplayScoreComponent},
   { path: '**', redirectTo: 'start' }
 
 
@@ -31,7 +34,8 @@ const routes: Routes = [
     ImageComponentComponent,
     InventoryPanelComponent,
     GameOverComponent,
-    TimerComponent
+    TimerComponent,
+    DisplayScoreComponent
   ],
   imports: [
     BrowserModule,
